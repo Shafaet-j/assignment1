@@ -56,7 +56,7 @@ header {
 
 /* Failure section styles */
 
-section {
+.margin {
   margin: 130px 230px;
 }
 .failure-container {
@@ -117,10 +117,85 @@ li {
   text-align: center;
   color: #151414;
 }
-.plan{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 15px;
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Footer section styles */
+footer {
+  padding: 130px 230px;
+  background: #151414;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side {
+  width: 50%;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+  margin-bottom: 15px;
+}
+.footer-des {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.btn-white {
+  padding: 20px 35px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+}
+form input {
+  background: #151414;
+  padding: 20px 20px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #f3f3f3;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+}
+h4 {
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Bonus section styles */
+.bonus {
+  background: linear-gradient(to right,#F15B22,#f15d2204),url("../images/watch.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bonus-container{
+    width: 50%;
+    margin-left: 150px;
+}
+.bonus-title{
+font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+margin-bottom: 20px;
 }
