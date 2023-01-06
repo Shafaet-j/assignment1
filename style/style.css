@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Work+Sans:wght@400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* Header section styles */
+
+header {
+  background: url("../images/banner/banner1.png");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hero {
+  width: 50%;
+  margin-right: 200px;
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  text-align: right;
+  color: #151414;
+  margin-bottom: 24px;
+}
+
+.hero-des {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: right;
+  color: #444343;
+  margin-bottom: 30px;
+}
+.hero-btn {
+  text-align: right;
+}
+.btn {
+  padding: 20px 35px;
+  background: #f15b22;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
