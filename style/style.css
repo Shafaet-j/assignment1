@@ -151,6 +151,7 @@ footer {
   line-height: 26px;
   color: #ffffff;
   margin-bottom: 32px;
+  width: 60%;
 }
 .btn-white {
   padding: 20px 35px;
@@ -180,6 +181,7 @@ h4 {
 }
 
 /* Bonus section styles */
+
 .bonus {
   background: linear-gradient(to right,#F15B22,#f15d2204),url("../images/watch.png");
   height: 70vh;
@@ -191,7 +193,7 @@ h4 {
 }
 .bonus-container{
     width: 50%;
-    margin-left: 150px;
+    margin-left: 230px;
 }
 .bonus-title{
 font-weight: 700;
